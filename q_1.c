@@ -16,5 +16,6 @@ int main(void) { // 함수 정의 시작 <- Scope 영역 시작
   printf("Result is %i", c); // 함수 호출(call or invoke)
 
   return 0; // 결과 값을 반환
+  // 메인 함수의 출력은 운영체제가 받아간다! <- 특별한 함수이다.
   // 영역의 끝
 };
