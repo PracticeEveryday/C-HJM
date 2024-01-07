@@ -15,6 +15,9 @@ int main () {
   printf("%lu\n", sizeof(signed int));
   printf("%lu\n", sizeof(i));
 
+  printf("%lu\n", sizeof(long));
+  printf("%lu\n", sizeof(long long));
+
   // 0b 뒤에 오는 리터럴이 2진수라는 걸 말해준다.
   i = 0b11111111111111111111111111111111;
   printf("%u\n", i);
