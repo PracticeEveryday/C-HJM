@@ -59,6 +59,7 @@
   "files.associations": {
     "stdint.h": "c",
     "stdio.h": "c",
-    "complex.h": "c"
+    "complex.h": "c",
+    "limits.h": "c"
   }
 }
