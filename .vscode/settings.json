@@ -60,7 +60,8 @@
     "stdint.h": "c",
     "stdio.h": "c",
     "complex.h": "c",
-    "limits.h": "c"
+    "limits.h": "c",
+    "cstdio": "c"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
