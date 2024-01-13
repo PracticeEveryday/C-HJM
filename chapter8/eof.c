@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
   int c;
 
   // ASCII CODE는 음수가 없다
@@ -28,7 +29,8 @@ int main () {
     c = getchar();
     printf("%d\n", c);
 
-    if(c == EOF){
+    if (c == EOF)
+    {
       printf("%c\n", c);
       break;
     }
