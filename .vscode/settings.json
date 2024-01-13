@@ -63,7 +63,9 @@
     "limits.h": "c",
     "cstdio": "c",
     "ctype.h": "c",
-    "_ctype.h": "c"
+    "_ctype.h": "c",
+    "__string": "c",
+    "locale": "c"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
