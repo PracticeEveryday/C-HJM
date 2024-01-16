@@ -6,12 +6,16 @@ int main()
 {
   int a = 123;
   int b = 456;
+
   // swap하는 함수를 만들어보자
   // 주소에 의한 호출로서 call by pointer라고 부르기도 한다
   printf("%p %p\n", &a, &b);
 
   swap(&a, &b);
 
+  int *a_ptr = &a;
+
+  printf("%d %d\n", a, b);
   printf("%d %d\n", a, b);
 
   return 0;
