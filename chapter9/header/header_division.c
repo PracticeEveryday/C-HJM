@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include "print_functions.h"
 
+// https://su-dong.tistory.com/67 <- 빌드 관련 에러 확인
 int main()
 {
   print_hello();
